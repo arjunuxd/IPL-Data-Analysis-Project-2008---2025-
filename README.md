@@ -24,17 +24,17 @@ This project was created as part of a self-learning journey toward becoming a **
 
 ## 📊 Top IPL Teams
 
-![Top Teams](assets/top_teams.png)
+![Top Teams](assets/top_teams_pro.png)
 
 
 ## 🏏 Top Run Scorers
 
-![Top Batsmen](assets/top_batsmen.png)
+![Top Batsmen](assets/top_batsmen_pro.png)
 
 
 ## 🎯 Top Wicket Takers
 
-![Top Bowlers](assets/top_bowlers.png)
+![Top Bowlers](assets/top_bowlers_better.png)
 
 
 ## 🪙 Toss Winner Analysis
