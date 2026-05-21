@@ -476,6 +476,13 @@ This project marks an important step toward becoming a Data Analyst.
 
 ---
 
+## Dataset
+
+Dataset was too large to upload to GitHub.
+Download IPL dataset separately from Kaggle.
+
+---
+
 # 👨‍💻 Author
 
 **Arjun A Acharry**
