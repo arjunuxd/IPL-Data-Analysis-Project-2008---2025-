@@ -501,7 +501,7 @@ This project marks an important step toward becoming a Data Analyst.
 
 Dataset was too large to upload to GitHub.
 Download IPL dataset separately from Kaggle.
-(https://www.kaggle.com/datasets/chaitu20/ipl-dataset2008-2025?resource=download)
+Resource : (https://www.kaggle.com/datasets/chaitu20/ipl-dataset2008-2025?resource=download)
 
 ---
 
