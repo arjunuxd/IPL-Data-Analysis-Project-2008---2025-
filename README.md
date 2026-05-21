@@ -22,6 +22,27 @@ This project was created as part of a self-learning journey toward becoming a **
 
 ---
 
+## 📊 Top IPL Teams
+
+![Top Teams](assets/top_teams.png)
+
+
+## 🏏 Top Run Scorers
+
+![Top Batsmen](assets/top_batsmen.png)
+
+
+## 🎯 Top Wicket Takers
+
+![Top Bowlers](assets/top_bowlers.png)
+
+
+## 🪙 Toss Winner Analysis
+
+![Toss Winners](assets/toss_winners.png)
+
+---
+
 # 🎯 Objectives
 
 The main objectives of this project are:
