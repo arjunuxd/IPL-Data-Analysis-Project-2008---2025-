@@ -74,9 +74,9 @@ The main objectives of this project are:
 IPL_Project/
 │
 ├── assets/
-│   ├── top_teams.png
-│   ├── top_batsmen.png
-│   ├── top_bowlers.png
+│   ├── top_teams_pro.png
+│   ├── top_batsmen_pro.png
+│   ├── top_bowlers_better.png
 │   └── toss_winners.png
 │
 ├── IPL.csv
