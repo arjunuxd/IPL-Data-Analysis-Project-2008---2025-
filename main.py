@@ -1,24 +1,48 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# Load dataset
 data = pd.read_csv("IPL.csv", low_memory=False)
 
-toss_wins = data['toss_winner'].value_counts().head(10)
+# Group runs by batter
+top_batsmen = data.groupby('batter')['runs_batter'].sum()
 
-print(toss_wins)
+# Sort and get top 10
+top_batsmen = top_batsmen.sort_values(ascending=False).head(10)
 
-plt.figure(figsize=(12,6))
+# Create figure
+plt.figure(figsize=(14,7))
 
-toss_wins.plot(kind='bar')
+# Create bars
+bars = plt.bar(top_batsmen.index, top_batsmen.values)
 
-plt.title("Top Toss Winning Teams", fontsize=16)
-plt.xlabel("Teams", fontsize=12)
-plt.ylabel("Toss Wins", fontsize=12)
+# Title and labels
+plt.title("Top 10 IPL Run Scorers (2008 - 2025)", fontsize=18, fontweight='bold')
+plt.xlabel("Players", fontsize=13)
+plt.ylabel("Total Runs", fontsize=13)
 
-plt.xticks(rotation=45)
+# Rotate names
+plt.xticks(rotation=30, ha='right')
 
+# Add values above bars
+for bar in bars:
+    height = bar.get_height()
+    plt.text(
+        bar.get_x() + bar.get_width()/2,
+        height + 100,
+        str(int(height)),
+        ha='center',
+        fontsize=10
+    )
+
+# Grid
+plt.grid(axis='y', linestyle='--', alpha=0.4)
+
+# Layout fix
 plt.tight_layout()
 
-plt.savefig("assets/toss_winners.png")
+# Save chart
+plt.savefig("assets/top_batsmen_pro.png", dpi=300)
 
+# Show chart
 plt.show()
